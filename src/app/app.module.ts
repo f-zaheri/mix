@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { SelectostanComponent } from './selectostan/selectostan.component';
+import { LoginComponent } from './login/login.component';
+import { CodeComponent } from './code/code.component';
+import { ReportComponent } from './report/report.component';
+import { ReportDefectComponent } from './report-defect/report-defect.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    SelectostanComponent
+    SelectostanComponent,
+    LoginComponent,
+    CodeComponent,
+    ReportComponent,
+    ReportDefectComponent
   ],
   imports: [
     BrowserModule,

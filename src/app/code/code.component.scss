@@ -1,0 +1,49 @@
+.card{
+  margin: auto;
+  }
+  .close{
+    display: inline-block;
+    border: none;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin-right:215px ;
+    background-image: url(../../assets/plus-one.svg);
+    background-size: contain;
+  }
+  .titr p{
+    display: inline-block;
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: small;
+    margin: 15px 0 15px 0;
+  }
+  .titr{
+    border-bottom: 1px solid rgb(214, 214, 214);
+  }
+  .card-text{
+    color: rgb(179, 179, 179) ;
+    margin-top: 15px;
+    font-size: small;
+  }
+  .p-smaller{
+  margin-top: 30px;
+  font-size: x-small;
+  color: rgb(179, 179, 179);
+  }
+  .inputs{
+  width: 75%;
+  margin: auto;
+  }
+  input{
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  ::placeholder{
+    color: rgb(211, 211, 211);
+    font-size: smaller;
+  }
+  a{
+    font-size: smaller;
+    margin: 40px 305px 0 0;
+  }
