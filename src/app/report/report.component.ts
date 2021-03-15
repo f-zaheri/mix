@@ -11,5 +11,9 @@ export class ReportComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  isShow = true;
 
+  featureHide() {
+   this.isShow= false;
+  };
 }

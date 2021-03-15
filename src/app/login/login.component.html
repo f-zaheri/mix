@@ -1,17 +1,19 @@
-<div [hidden]="!isShow" class="card" style="width: 25rem;">
-  <div class="card-body">
-    <div class="titr">
-      <p>وارد حساب کاربری خود شوید</p>
-      <button class="close" (click)="featureHide()"></button>
+<div class="center">
+  <div [hidden]="!isShow" class="card" style="width: 25rem;">
+    <div class="card-body">
+      <div class="titr">
+        <p>وارد حساب کاربری خود شوید</p>
+        <button class="close" (click)="featureHide()"></button>
+      </div>
+      <p class="card-text">شماره موبایل خود را وارد کنید</p>
+      <p class="p-smaller" >برای ادامه کار لازم است وارد حساب خود شوید.
+        لطفا شماره موبایل خود را وارد کنید کد تایید به این شماره
+        پیامک خواهد شد
+      </p>
+      <div class="inputs">
+        <input type="text" class="form-control" id="inputNumber" placeholder="شماره موبایل">
+      </div>
+      <a href="#" class="btn btn-primary">بعدی</a>
     </div>
-    <p class="card-text">شماره موبایل خود را وارد کنید</p>
-    <p class="p-smaller" >برای ادامه کار لازم است وارد حساب خود شوید.
-      لطفا شماره موبایل خود را وارد کنید کد تایید به این شماره
-      پیامک خواهد شد
-    </p>
-    <div class="inputs">
-      <input type="text" class="form-control" id="inputNumber" placeholder="شماره موبایل">
-    </div>
-    <a href="#" class="btn btn-primary">بعدی</a>
   </div>
 </div>

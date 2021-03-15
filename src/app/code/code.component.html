@@ -1,16 +1,18 @@
-<div class="card" style="width: 25rem;">
+<div class="center">
+<div [hidden]="!isShow" class="card" style="width: 25rem;">
   <div class="card-body">
     <div class="titr">
       <p>ورود به حساب کاربری</p>
-      <button class="close"></button>
+      <button (click)="featureHide()" class="close"></button>
     </div>
     <p class="card-text">کد تایید را وارد کنید</p>
     <p class="p-smaller" >
       کد پیامک شده به شماره 09121234567 را وارد کنید
     </p>
     <div class="inputs">
-      <input type="number" class="form-control" id="inputNumber" placeholder="کد تایید را وارد کنید">
+      <input type="text" class="form-control" id="inputNumber" placeholder="کد تایید را وارد کنید">
     </div>
     <a href="#" class="btn btn-primary">تایید</a>
   </div>
+</div>
 </div>

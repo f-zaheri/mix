@@ -11,5 +11,10 @@ export class ReportDefectComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  isShow = true;
+
+  featureHide() {
+   this.isShow= false;
+  };
 
 }
