@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { CodeComponent } from './code/code.component';
 import { ReportComponent } from './report/report.component';
 import { ReportDefectComponent } from './report-defect/report-defect.component';
+import { PageComponent } from './page/page.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ReportDefectComponent } from './report-defect/report-defect.component';
     LoginComponent,
     CodeComponent,
     ReportComponent,
-    ReportDefectComponent
+    ReportDefectComponent,
+    PageComponent,
+    NavbarComponent,
+    FooterComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
