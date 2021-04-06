@@ -1,0 +1,214 @@
+.center{
+  width: 50rem;
+  margin: auto;
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(124, 124, 124);
+  padding: 10px 10px 20px 10px;
+}
+.menu{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.information{
+  margin-right: 80%;
+}
+.information img{
+  width: 40px;
+  height: 30px;
+}
+.information a{
+  padding: 5px;
+}
+.person img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.person , .details , .btnnumber {
+  display: block;
+  float: right;
+}
+.btnnumber{
+  clear: left;
+}
+.stars img{
+  width: 30px;
+  height: 30px;
+}
+.details h5{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.details{
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.stars{
+  margin-top: 70px;
+}
+.number{
+  margin-right: 220px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.btnnumber img{
+  width: 20px;
+  height: 25px;
+}
+.note img{
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: right;
+  margin-left: 5px;
+}
+.note p{
+  display: block;
+  float: right;
+  font-size: 12px;
+}
+.note{
+  width: 50rem;
+  margin: 30px auto 0 auto;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.link a{
+  text-decoration: none;
+  display: inline-block;
+  border-left: 1px solid rgb(226, 226, 226);
+  color: gray;
+  padding: 0 40px;
+}
+.note2{
+  width: 50rem;
+  margin: auto;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 20px;
+}
+.description h5{
+  font-weight: bolder;
+  margin: 20px 0;
+}
+.description p{
+  float: none;
+  font-size: 16px;
+}
+.skill h5{
+  font-weight: bolder;
+}
+.skill button{
+  border-radius: 5px;
+  margin: 10px 0 10px 10px;
+  background-color: rgb(212, 212, 212);
+  border: none;
+  padding: 5px;
+}
+.License h5{
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.btns button{
+  min-width: 150px;
+  min-height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  margin-left: 20px;
+}
+.Comments h5{
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.score  , .numbers , .comment {
+  display: block;
+  float: right;
+}
+.restangle{
+  width: 350px;
+  height: 25px;
+  background-color: rgb(1, 218, 146);
+}
+.restangle1{
+  width: 70px;
+  height: 25px;
+  background-color: rgb(1, 218, 66);
+}
+.restangle2{
+  width: 30px;
+  height: 25px;
+  background-color: rgb(178, 218, 1);
+}
+.restangle3{
+  width: 15px;
+  height: 25px;
+  background-color: rgb(218, 142, 1);
+}
+.restangle4{
+  width: 50px;
+  height: 25px;
+  background-color: rgb(218, 52, 1);
+}
+.comment div{
+  margin: 0 5px 5px 0;
+}
+.score p{
+  display: block;
+  float: none;
+}
+.Comments p{
+  font-size: 30px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  text-align: center;
+}
+.score{
+  margin-top: 10px;
+}
+.numbers div{
+  display: block;
+  float: none;
+  margin-right: 115px;
+  margin-bottom: 7px;
+}
+.date p{
+  border-bottom: unset;
+}
+.Comments{
+  border-bottom: unset;
+}
+.date{
+  width: 50rem;
+  margin: auto;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.date button{
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  margin:0 85% 10px 0;
+}
+.stars1{
+margin: -10px 0 20px 0;
+}
+.stars2{
+  margin: -10px 0 20px 0;
+  }
+.date2 button{
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  margin:0 78% 10px 0;
+}
+.date2 p{
+  margin-top: 5px;
+}
+.btndisplay{
+  width: 40rem;
+  margin: auto;
+}
+.btndisplay button{
+  margin: 30px 12rem 60px;
+}
+
