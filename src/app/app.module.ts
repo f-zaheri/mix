@@ -14,6 +14,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { PageoneComponent } from './pageone/pageone.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { CardasComponent } from './cardas/cardas.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PageoneComponent } from './pageone/pageone.component';
     NavbarComponent,
     FooterComponent,
     CardsComponent,
-    PageoneComponent
+    PageoneComponent,
+    DashboardComponent,
+    CardasComponent
   ],
   imports: [
     BrowserModule,

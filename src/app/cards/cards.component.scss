@@ -1,21 +1,36 @@
 .card{
   margin: auto;
+  background-color: rgb(253, 253, 253);
+  height: auto;
+  min-width: 1000px;
 }
-.buttons{
-  border-bottom: 1px solid rgb(218, 218, 218) ;
+.multicard{
+  width: 800px;
+  height: auto;
 }
-.buttons button{
-border-radius: 15px;
-font-size: 8px;
-margin: 30px 5px 15px 5px;
+ .buttons{
+   border-bottom: 1px solid rgb(218, 218, 218) ;
+ }
+  .buttons button{
+ border-radius: 20px;
+ margin: 20px 5px 15px 5px;
+ font-size:10px ;
+ }
+ .onecard , .twocard{
+   display: block;
+   float: right;
+   width: 25rem;
+ }
+ .onecard app-cardas {
+   margin: 10px;
+ }
+ .twocard app-cardas {
+  margin: 10px;
 }
-.card1{
-  border: 1px solid gray;
-  width: 350px;
-  height: 150px;
+.black{
+  color: black;
 }
-.imgs img{
-  width: 80px;
-  height: 80px;
+.black img{
+  width: 10px;
+  height: 10px;
 }
-
