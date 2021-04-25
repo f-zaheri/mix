@@ -2,14 +2,16 @@
   margin: auto;
   background-color: rgb(253, 253, 253);
   height: auto;
-  min-width: 1000px;
+  min-width: 1300px;
 }
 .multicard{
-  width: 800px;
+  width: 1200px;
   height: auto;
 }
  .buttons{
    border-bottom: 1px solid rgb(218, 218, 218) ;
+   margin-left: 151px;
+   text-align: left
  }
   .buttons button{
  border-radius: 20px;
@@ -33,4 +35,61 @@
 .black img{
   width: 10px;
   height: 10px;
+}
+.d1{
+width: 300px;
+height: auto;
+margin-right: 20px;
+}
+.all div{
+  display: block;
+  float: right;
+}
+.d1 a{
+  display: block;
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+  font-size: 12px;
+  padding: 5px 0 15px 0;
+  margin-right: 50px;
+}
+.check{
+  display: block;
+  float: right;
+  margin-right: -42px;
+  width: 15px;
+}
+.d1 input{
+    border-radius: 10px;
+    width: 250px;
+    font-size: 10px;
+    padding: 10px 20px;
+    background-image: url(../../assets/searching-magnifying-glass-8.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 20px;
+}
+::placeholder {
+  padding-right: 20px;
+}
+.images img{
+  width: 80px;
+  height: 80px;
+}
+.images{
+  border-top: 1px solid darkgray;
+}
+.d1 h5{
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.mayket img{
+  display: block;
+  width: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .d1{
+    display: none;
+  }
 }
